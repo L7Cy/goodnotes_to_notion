@@ -1,1 +1,4 @@
 # goodnotes_to_notion
+Googleドライブの任意のフォルダ内のPDFを、Notionの新しいページに埋め込みます。Goodnotes5で自動バックアップしたPDFをNotionで簡単に閲覧するために作りました。
+## 使い方
+GoogleドライブのID、インテグレーションのトークン、データベースのIDを設定して、claspでpushしてください。トリガーは1分ごとに設定してください。

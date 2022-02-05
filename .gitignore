@@ -1,0 +1,6 @@
+settings.ts
+node_modules
+.clasp.json
+appsscript.json
+package-lock.json
+package.json
