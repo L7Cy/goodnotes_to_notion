@@ -5,9 +5,9 @@ GoogleドライブのID、インテグレーションのトークン、データ
 
 以下のコードをGASに直接コピペしても使えます。
 ```main.gs
-// const targetFolder = DriveApp.getFolderById('フォルダ名');
-// const notion_token = 'トークン';
-// const database_id = 'データベースID';
+const targetFolder = DriveApp.getFolderById('フォルダ名');
+const notion_token = 'トークン';
+const database_id = 'データベースID';
 function checkFile() {
     var files = targetFolder.getFiles();
     var now = new Date();
