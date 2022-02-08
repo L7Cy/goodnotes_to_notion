@@ -9,7 +9,7 @@ function checkFile() {
     let file = files.next();
     let createDate = file.getDateCreated();
     const timeDiff = (now.getTime() - createDate.getTime()) / (60 * 1000);
-    if (1 >= timeDiff) {
+    if (5 >= timeDiff) {
       let file_name = file.getName();
       console.log(file_name);
       let file_url = file.getUrl();
